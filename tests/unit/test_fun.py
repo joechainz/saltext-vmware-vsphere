@@ -41,3 +41,8 @@ import saltext.vmware_vsphere.modules.thing as thing
 def test_two_plus_two_equals_four():
 	assert thing.add(n1=2,n2=2) == 4
 # you'll get used to <esc>:w<enter> just being what your fingers do ;)
+def test_one_plus_one_equals_two():
+  assert thing.add(n2=1,n1=1)  == 2
+
+def test_negative_two_plus_two_equals_zero():
+  assert thing.add(n1=-2,n2=2) == 0

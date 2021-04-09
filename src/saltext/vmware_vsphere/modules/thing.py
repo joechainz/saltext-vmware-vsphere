@@ -37,7 +37,17 @@
 # OKay, so now if we check the error - None == 4? Hardly. So now it's my turn to "fix" the code. I like taking this approach here...
 
 def add(*, n1, n2):
-   return 4
+    # Very good. I was confused cause I was like "Why is it 4 ==2??" Derp XD
+    # Another tip - o and O to open the line below and above the current for
+    # editing.
 
+    # So this one turns out to be pretty straight forward. Let me introduce a
+    # bug though, so we can write some other tests...
 
-# Success! :troll: But also... good! Because the idea is that you should only write the minimum amount of code to pass tests means you have to test things that you need. So lets go ahead and commit this...
+    # Okay, so can you write a test to expose this bug?
+    #hmmm I think soo
+    # (btw, ctrl+w goes to "window" mode - ctrl+w,j will move you to the
+    # window down, k up, h and l side to side.
+
+    return n1 + n2
+
